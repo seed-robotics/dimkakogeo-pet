@@ -30,8 +30,8 @@
 - microSD card
 - Raspberry Pi Camera Module
 - Raspberry Pi Zero Camera Adapter
-- 1kg PLA/PETg (3D printing material)
-- Waveshare Stepper Motor HAT
+- 1kg PLA/PETG
+- Waveshare Stepper Motor HAT for Raspberry Pi
 - 2x Stepper Motor 28YBJ-48
 - Ultrasonic Sensor
 - Τροφοδοτικό 12V
