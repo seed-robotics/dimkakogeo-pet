@@ -1,0 +1,3 @@
+0 Cats
+1 Dogs
+2 Background

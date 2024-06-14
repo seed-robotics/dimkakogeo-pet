@@ -1,0 +1,5 @@
+RPi.GPIO
+opencv-python-headless
+numpy
+tensorflow==2.15.0
+picamera2
