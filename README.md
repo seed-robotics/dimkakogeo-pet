@@ -11,14 +11,27 @@
 - microSD card
 - Raspberry Pi Camera Module
 - Raspberry Pi Zero Camera Adapter
-- 1kg PLA/PETG
-- Waveshare Stepper Motor HAT for Raspberry Pi
-- 2x Stepper Motor 28YBJ-48
-- Ultrasonic Sensor
-- Τροφοδοτικό 12V
+- 2*Servo mg996r
+- mini HDMI to HDMI cable
+- microUSB power Supply
 
-## Οδηγίες
-Σύντομα θα ανεβάσουμε τις πρώτες οδηγίες που θα αφορούν το σετάρισμα του Raspberry Pi Zero και των περιφερειακών εξαρτημάτων (κάμερα, αισθητήρα, κινητήρες).
+## Οδηγίες κατασκευής 
+Για την εκτύπωση μπορείτε να βρείτε τα αρχεία στον φάκελο STLs. 
+Επιπλέον για την κατασκευή θα χρειατείτε:
+-8 M2.5 mm x 12mm βίδες για την στήριξη της κάμερας και του Raspberry Pi
+-2 M3mm x 10-30mm βιδες για την στήριξη του κοχλία
+-4x Μ3 x 10mm 
+
+## Οδηγίες για το πρόγραμμα
+Σε καινούργια εγκατάσταση του Raspberry Pi OS: 
+```
+sudo apt update
+sudo apt upgrade
+sudo apt install python3-pip
+cd dimkakogeo-pet/code
+pip3 install -r requirements.txt
+```
+Στη συνέχεια μπορείτε να τρέξετε το πρόγραμμα main.py 
 
 ## About Us
 - **Όνομα Ομάδας:** DimKakoGeo-Pet
